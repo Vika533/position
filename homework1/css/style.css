@@ -1,0 +1,217 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+.body {
+    width: 1200px;
+}
+
+.main {
+    margin: auto;
+    width: 1200px;
+    text-align: center;
+    background-color: #FF4500;
+    font-style: italic;
+    font-size: medium;
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+h2,
+h3 {
+    font-size: 26px;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+div>p {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.title {
+    background: #20B2AA;
+    color: #ffffff;
+    border-top: 1px solid yellow;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+.text-center {
+    text-align: center;
+}
+
+img {
+    margin: auto;
+    width: 300px;
+    height: 320px;
+}
+
+.position {
+    background-color: olive;
+    font-style: italic;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 1200px;
+    padding: 50px 0;
+    position: relative;
+
+}
+
+.toponpic {
+    text-align: center;
+    background-color: rgba(117, 190, 218, 0.5);
+    position: absolute;
+    width: 1200px;
+    height: 800px;
+}
+
+#try {
+    width: 1200px;
+    height: 800px;
+}
+
+.box {
+    position: fixed;
+    background-color: peru;
+    width: 450px;
+    top: 50%;
+}
